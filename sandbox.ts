@@ -10,6 +10,13 @@ let nums: string[];
 character = 'volkan';
 age = 50;
 
+
+let ll: string[] = [];
+
+ll.push("ddds");
+ll.push("dddd");
+console.log(ll);
+    
 isMissiable = true;
 
 const circ = (diamter:number) :number => {
