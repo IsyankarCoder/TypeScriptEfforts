@@ -1,0 +1,11 @@
+var myTuple = ["Volkan", "Tolkan", 55, "Genç"];
+console.log("Items before push", myTuple.length);
+myTuple.push(99);
+console.log(myTuple);
+console.log("Items after push", myTuple.length);
+console.log("Items before pop", myTuple.length);
+console.log(myTuple.pop() + " popped from dizi");
+console.log(myTuple.length);
+var d = myTuple[0], e = myTuple[3];
+console.log(d);
+console.log(e);
