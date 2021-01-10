@@ -9,6 +9,6 @@ console.log("Items before pop", myTuple.length);
 console.log(myTuple.pop() + " popped from dizi");
 console.log(myTuple.length);
 
-var [d, e] = myTuple;
-console.log(d);
-console.log(e);
+var [d, e,c] = myTuple;
+console.log("d->", d);
+console.log("e=>", c);
