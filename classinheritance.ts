@@ -26,3 +26,5 @@ class Leaf extends Child{ }
 let ch = new Leaf();
 ch.str = "Samsun55";
 console.log(ch.str);
+
+console.log(0+'0')

@@ -22,9 +22,9 @@ interface IParent2{
 }
 
 interface Ichild extends IParent1, IParent2 { }
-var Child: Ichild = {
+var Child55: Ichild = {
     v1: 5,
     v2: 55
 }
-console.log("value 1: " + Child.v1 + " value 2: " + Child.v2);
+console.log("value 1: " + Child55.v1 + " value 2: " + Child55.v2);
 
